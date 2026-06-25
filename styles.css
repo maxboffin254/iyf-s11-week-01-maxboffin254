@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 25px 40px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+nav ul li a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffffff;
+}
+
+.hero {
+    padding: 50px 40px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 220px;
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    display: block;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.hero-buttons a:hover {
+    background-color: #2e7d32;
+}
+
+main {
+    padding: 50px 40px;
+    max-width: 800px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 1.4rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+section p {
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+ul.simple-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.simple-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+    color: #333333;
+    font-size: 0.95rem;
+}
+
+ul.simple-list li:last-child {
+    border-bottom: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-left: 4px solid #1a1a1a;
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #cccccc;
+    border-radius: 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1a1a1a;
+}
+
+.optional {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-row input {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-row label {
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    width: 100%;
+    max-width: 220px;
+    padding: 12px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #2e7d32;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 220px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    display: block;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #2e7d32;
+}
+
+address {
+    font-style: normal;
+    color: #555555;
+    line-height: 2;
+    font-size: 0.95rem;
+}
+
+address a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Max</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Contact Me</h2>
+            <p>Have a question or want to work together? Fill in the form below and I'll get back to you!</p>
+        </section>
+
+        <section>
+            <form action="#" method="POST">
+
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name"
+                        placeholder="e.g. John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="e.g. john@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">
+                        Phone Number <span class="optional">(optional)</span>
+                    </label>
+                    <input type="tel" id="phone" name="phone"
+                        placeholder="e.g. +254 700 000 000">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value="general">General Enquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6"
+                        placeholder="Write your message here (minimum 50 characters)..."
+                        minlength="50" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to my newsletter for updates</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Find Me Online</h2>
+            <div class="social-links">
+                <a href="https://github.com/maxboffin254" target="_blank">GitHub</a>
+                <a href="https://wa.me/254725296141" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Location and Timezone</h2>
+            <address>
+                Nairobi, Kenya<br>
+                East Africa Time (EAT) — UTC+3<br>
+                Phone: <a href="tel:+254725296141">+254 725 296 141</a>
+            </address>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Max. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
