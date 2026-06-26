@@ -95,4 +95,4 @@ Inputs found:
 
 **Answer:**
 
-![GitHub DevTools Elements Panel Screenshot](Images/Screenshot 2026-06-26 120413.png)
+![GitHub DevTools Elements Panel Screenshot](Images/elements-screenshot.png)
