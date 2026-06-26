@@ -33,8 +33,8 @@ Building this portfolio taught me how to organize a multi-page site with consist
 1. **CSS styling approach** — I had to choose between external, internal, and inline styles. I settled on an external stylesheet to keep my HTML cleaner and easier to maintain.
 2. **Git sync conflicts** — I edited files on GitHub without pulling first, which blocked my push. I resolved it by pulling remote changes, fixing merge conflicts, and pushing again in the correct order.
 
-## Screenshots
-![Portfolio homepage preview](images/project1.png)
+## Screenshot
+![Portfolio homepage preview](Images/Portfolio-website.png)
 
 ## Live Demo
 [View Live Demo](https://maxboffin254.github.io/iyf-s11-week-01-maxboffin254/index.html)
